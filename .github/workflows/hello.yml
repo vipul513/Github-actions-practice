@@ -13,9 +13,3 @@ jobs:
     steps:
       - name: Say hello to everyone
         run: echo "Hello Dosto"
-
-#steps
-# #Should Be Inside the Job
-
-#actions
-#Should Be Inside the Steps
