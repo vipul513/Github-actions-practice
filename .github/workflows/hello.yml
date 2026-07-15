@@ -1,15 +1,18 @@
-# workflow
-#Should Have Name
+# workflow [No Indentation required for naming the workflow]
 name: hello
 
+# on tells when the workflow should run (Give Indentation by Tab) 
 on:
   push:
 
-#jobs
-#Should Be Inside the Workflow
-jobs: 
+#jobs tells what the workflow should do. There can be one or more jobs. That's why we write jobs
+#Job is an object so need indentation
+jobs:
+  # 1st Job (Need indentation)
   say-hello: 
+  # creates an ephemeral container with Ubuntu running
     runs-on: ubuntu-latest
+    # That ephemeral will have steps to execute, hence name those concepts and use run: 
     steps:
       - name: Say hello to everyone
         run: echo "Hello Dosto"
