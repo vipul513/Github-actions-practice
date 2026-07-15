@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello to everyone
-      runs: echo "Hello Dosto"
+        run: echo "Hello Dosto"
 
 #steps
 # #Should Be Inside the Job
